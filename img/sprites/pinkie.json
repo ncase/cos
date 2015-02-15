@@ -1,0 +1,35 @@
+﻿{"frames": [
+
+{
+	"filename": "HACK-eyes0000",
+	"frame": {"x":0,"y":0,"w":236,"h":166},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":236,"h":166},
+	"sourceSize": {"w":236,"h":166}
+}
+,{
+	"filename": "HACK-head0000",
+	"frame": {"x":236,"y":0,"w":279,"h":294},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":279,"h":294},
+	"sourceSize": {"w":279,"h":294}
+}
+,{
+	"filename": "HACK-nose0000",
+	"frame": {"x":515,"y":0,"w":63,"h":41},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":41},
+	"sourceSize": {"w":63,"h":41}
+}],
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "13.1.0.226",
+	"image": "pinkie.png",
+	"format": "RGBA8888",
+	"size": {"w":1448,"h":362},
+	"scale": "1"
+}
+}

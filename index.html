@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+<head>
+
+	<title>Coming Out Simulator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/game.css" type="text/css"/>
+	<link rel="icon" type="image/png" href="favicon.png">
+
+	<!-- Schema.org markup for Google+ -->
+	<meta itemprop="name" content="Coming Out Simulator">
+	<meta itemprop="description" content="A half-true story about half-truths.">
+	<meta itemprop="image" content="http://ncase.me/cos/thumbnail.png">
+
+	<!-- Open Graph data -->
+	<meta property="og:title" content="Coming Out Simulator">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://ncase.me/cos/">
+	<meta property="og:image" content="http://ncase.me/cos/thumbnail.png">
+	<meta property="og:description" content="A half-true story about half-truths.">
+	<meta property="og:site_name" content="Coming Out Simulator">
+
+</head>
+
+<body>
+	<div id="game_container">
+		<div id="game" screen="loading">
+			
+			<div id="background"></div>
+			<div id="dialogue"></div>
+			<div id="choices"></div>
+
+			<div id="blank"></div>
+			<div id="loading">
+				<div><span style="position: relative; left: 5px;">LOADING</span><br><div id="loading_bar"></div></div>
+			</div>
+
+
+			<div id="share">
+				<div class="close_screen" style="position:absolute;width:100%;height:100%"></div>
+				<div id="share_modal">
+
+					<div class="close_screen" style="position:absolute;top:0px;right:0px;font-size:30px;width:30px;height:30px;cursor:pointer">&times;</div>
+
+					<span style="font-size:56px; letter-spacing:15px; position:relative; left:6px;">SHARE</span>
+					<br>
+					<span style="font-size:29px; letter-spacing:15px; position:relative; left:6px;">THE PAIN</span>
+
+					<br><br>
+
+					<a target="_blank"
+						href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fncase.itch.io%2Fcoming-out-simulator-2014&amp;t=Coming Out Simulator, a half-true story about half-truths."
+						data-popup-width="626" data-popup-height="436"
+						onclick="return sharePopup.call(this,event);">
+						<img src="icons/facebook.png" width="70" height="70"/>
+					</a>
+
+					<a target="_blank"
+						href="https://twitter.com/share?url=http%3A%2F%2Fncase.itch.io%2Fcoming-out-simulator-2014&amp;text=Coming Out Simulator, a half-true story about half-truths.&amp;via=ncasenmare"
+						data-popup-width="640" data-popup-height="400"
+						onclick="return sharePopup.call(this,event);">
+						<img src="icons/twitter.png" width="70" height="70"/>
+					</a>
+
+					<a target="_blank"
+						href="https://plus.google.com/share?url=http%3A%2F%2Fncase.itch.io%2Fcoming-out-simulator-2014"
+						data-popup-width="600" data-popup-height="460"
+						onclick="return sharePopup.call(this,event);">
+						<img src="icons/google.png" width="70" height="70"/>
+					</a>
+
+					<a target="_blank"
+						href="https://www.tumblr.com/share/link?url=http%3A%2F%2Fncase.itch.io%2Fcoming-out-simulator-2014&amp;name=Coming Out Simulator&amp;description=A half-true story about half-truths."
+						data-popup-width="446" data-popup-height="430"
+						onclick="return sharePopup.call(this,event);">
+						<img src="icons/tumblr.png" width="70" height="70"/>
+					</a>
+
+					<a target="_blank"
+						href="http://www.reddit.com/submit?url=http%3A%2F%2Fncase.itch.io%2Fcoming-out-simulator-2014&amp;title=Coming Out Simulator">
+						<img src="icons/reddit.png" width="70" height="70"/>
+					</a>
+				 
+					<a target="_blank"
+						href="https://www.stumbleupon.com/submit?url=http%3A%2F%2Fncase.itch.io%2Fcoming-out-simulator-2014&amp;title=Coming Out Simulator">
+						<img src="icons/stumbleupon.png" width="70" height="70"/>
+					</a>
+
+				</div>
+			</div>
+
+			<div id="credits">
+				<div class="close_screen" style="position:absolute;width:100%;height:100%"></div>
+				<div id="credits_modal">
+
+					<div class="close_screen" style="position:absolute;top:0px;right:0px;font-size:30px;width:30px;height:30px;cursor:pointer">&times;</div>
+
+					<span style="font-size: 26px;">
+						Coming Out Simulator
+					</span>
+					<br>
+					<span style="color:#555; font-size:16px">
+						by <a href="http://ncase.me" target="_blank">Nicky Case</a> | <a href="http://twitter.com/ncasenmare" target="_blank">@ncasenmare</a>
+					</span>
+					
+					<br><br>
+
+					<span style="font-size:20px">
+						this game is public domain
+						<br>
+						<span style="color:#555; font-size:16px">
+							
+							my open source <a href="https://github.com/ncase/coming-out-simulator-2014" target="_blank">code</a>
+							<br>
+							the <a href="http://blog.ncase.me/coming-out-simulator-2014/" target="_blank">behind-the-scenes</a>
+
+						</span>
+					</span>
+					
+					<br><br>
+
+					<span style="font-size:16px">
+						thank you for playing!<br><span style="color:#555">:)</span>
+					</span>
+
+					<br><br>
+
+					<a href="https://www.patreon.com/ncase" target="_blank" style="text-decoration:none">
+						<img src="icons/patreon.png" width="135"/>
+					</a>
+					<a href="http://www.igf.com/02finalists.html" target="_blank" style="text-decoration:none">
+						<img src="icons/igf.png" width="135"/>
+					</a>
+					
+				</div>
+			</div>
+
+		</div>
+		<div id="footer">
+			<div id="author">
+				by <a target="_blank" href="https://twitter.com/ncasenmare">@ncasenmare</a>
+			</div>
+			<div class="button" id="button_fs" style="width: 70px;">
+				fullscreen
+			</div>
+			<div class="button" id="button_credits">
+				credits
+			</div>
+			<div class="button" id="button_share">
+				share
+			</div>
+		</div>
+	</div>
+</body>
+
+<script src="js/core/q.js"></script>
+<script src="js/core/minsubpub.js"></script>
+<script src="js/core/soundjs-0.5.2.min.js"></script>
+<script src="js/core/popup.js"></script>
+
+<script src="js/core/Choose.js"></script>
+<script src="js/core/ChooseView.js"></script>
+
+<script src="js/config/art.js"></script>
+<script src="js/config/sounds.js"></script>
+<script src="js/config/characters.js"></script>
+
+<script src="js/game/menu.js"></script>
+<script src="js/game/jack_1.js"></script>
+<script src="js/game/dinner_1.js"></script>
+<script src="js/game/dinner_2.js"></script>
+<script src="js/game/dinner_3.js"></script>
+<script src="js/game/dinner_4.js"></script>
+<script src="js/game/dinner_5.js"></script>
+<script src="js/game/jack_2.js"></script>
+<script src="js/game/outro.js"></script>
+
+<script src="js/main.js"></script>
+
+<script src="js/buttons.js"></script>
+
+</html>
