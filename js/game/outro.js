@@ -536,15 +536,17 @@ function Finale_3(message){
 	Wait(1000);
 
 	PlaySound("sfx","step_2",{volume:0.25});
-	Choose({
+
+	/*Choose({
 		"REPLAY?": Finale_4
-	});
+	});*/
+	Finale_4();
 
 }
 function Finale_4(message){
 	
-	p(message);
-	N("Real life has no replays.");
+	/*p(message);
+	N("Real life has no replays.");*/
 
 	Wait(800);
 	queue(function(){
